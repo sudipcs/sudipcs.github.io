@@ -153,12 +153,13 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+ /* height: 96vh;*/
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
 
+ /*need to edit here */
 .section-container {
   display: flex;
 }
@@ -310,7 +311,7 @@ section {
 
 .arrow {
   position: absolute;
-  right: 5rem;
+  right: -5rem;
   bottom: 2rem;
 }
 
