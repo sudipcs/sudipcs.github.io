@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><b>Sudip Mondal</b></div>
+      <div>
+        <ul class="nav-links">
+	  <li><a style="color: black;" href="index.html">Home</a></li>
+          <li><a style="color: black;" href="#about">About</a></li>
+          <li><a style="color: black;" href="#Education">Education</a></li>
+          <li><a style="color: black;" href="#experience">Experience</a></li>
+          <li><a style="color: black;" href="#Publications">Publications</a></li>
+          <li><a style="color: black;" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sudip Mondal</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#Publications" onclick="toggleMenu()">Publications</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img style="border-radius: 20%;" alt="Avatar" width="300px" height="300px" src="./assets/profile-pic.png"/>
+        
+        <div class="section__text">
+          <div>
+            <dd>
+<ul>
+  <li><h4>Hello. I`m Sudip</h4></li>
+  <li>
+  <p><b> Industry:</b> Over 9 years - Amazon, InMobi, Myntra, Kenome</p></li>
+  <li>
+  <p><b> Masters: Computer Graphics-</b>  ( 2002 - 2005 ) <br>
+    </p> School of Computing, University of Utah</b>  &nbsp; </p></li>
+    <li>
+    <p><b> Ph.D: Machine Learning   </b> ( 2011 - 2016 ) <br>
+       Dept. of Computer Science and Automation(<a href="http://www.csa.iisc.ernet.in/">CSA</a>)
+      <br> Indian Institute of Science(<a href="http://www.iisc.ernet.in/">IISc</a>), Bangalore
+      </p></li>
+  <li><b>LinkedIn:</b>linkedin.com/inkddddddddddddddddddddhhhhhhh</li>
+</ul>
+</dd>
+       
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="text-container">
+          
+          <dd>
+      
+      <ul>
+        <li>I am currently consulting on Product at a deep tech NLP startup <a href="https://www.kenome.io/">Kenome</a>,
+           that builds knowledge graphs for enterprises. </li>
+      <li>I have been mentoring data science aspirants and helping them prepare for Machine Learning Interviews. I am the founder of
+         <a href="https://machinelearninginterview.com">MachineLearningInterview.com</a>. </li>	
+      </ul>
+            <BR>Before this, I have been a Machine Learning Scientist at Amazon for the Core Machine Learning Team that solves a range of problems partnering with various Amazon 
+            teams to drive customer Impact.  I had particularly worked on problems from the Amazon Fashion Vertical. I am a customer obsessed 2x-Amazonian. 
+            <BR>
+              I had completed a PhD from IISc, where I performed most of my doctoral research at the
+               <a href="http://mllab.csa.iisc.ernet.in/">Machine Learning Lab</a>,
+               CSA, IISc. I was advised by
+                <a href="http://drona.csa.iisc.ernet.in/~chiru/">Dr. Chiranjib Bhattacharya</a>.
+               Prior to that, I was advised by 
+               <a href="http://drona.csa.iisc.ernet.in/~indrajit/">Dr. Indrajit Bhattacharya</a>. 
+      My research focus during PhD has been on 
+      <B> Bayesian Non-parametric modeling</B>, 
+      Probabilistic Graphical models and their applications.
+       I am also interested in approaches for scaling inference algorithms and recently deep learning based techniques. 
+           So far, I have worked on probabilistic models for the e-commerce domain, systems domain, 
+           and Natural Language Processing.
+            <BR><BR>Prior to joining PhD, I had worked in the industry in a variety of roles at 
+      <a href="http://amazon.com">Amazon.com(Seattle)</a>, 
+      <a href="myntra.com"> Myntra.com(Bangalore)</a> and 
+      <a href="www.inmobi.com"> InMobi(Bangalore)</a>. During my PhD,
+       I have worked closely with <a href="http://www.netapp.com/in/">NetApp(Bangalore)</a>
+        on designing machine learning models for mining block I/O traces and 
+      have also interned at <a href="http://www.xrci.xerox.com/">Xerox Research Center(Bangalore)</a>,
+       where I worked on modeling with Copulas.
+      <BR><BR>
+          I had also worked with <a href="http://www.cs.utah.edu/~cohen">Prof. Elaine Cohen </a>
+          (Geometric Design and Computation Group) in the Area of Geometric Modeling with B-Splines,
+           during my Masters at University of Utah.
+            My work involved finding novel algorithms for fitting B-Spline surfaces from noisy and incomplete point cloud data.<br/><BR><BR>
+      
+          </ul></dd>
+          </div>
+      </div>
+      
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Education'"
+      />
+  
+    </section>
+    <section id="Education">
+      
+      <h1 class="title">Education</h1>
+      <div class="section-container">
+        <div class="text-container">
+         
+    <dd><ul>
+    <li>PhD in CS : GPA - 7.0/8 : Indian Institute of Science (<a href="http://www.csa.iisc.ernet.in/">IISC</a>), Bangalore.</li><br>
+    (Google Anita Borg Scholar APAC - 2014)<BR><BR>
+ 
+    <li>MS in CS with Computer Graphics Emphasis: GPA-3.97/4 : <a href="http://www.cs.utah.edu/">School of Computing, University of Utah</a> </li><br>
+    <li>BE in CS : 89% : Osmania University College of Engineering(Autonomous) - <a href="http://www.uceou.edu/">OUCE</a>, Hyderabad</li><br>
+	(<b>GATE All India Rank 2</b>  , Rank 4 in University)
+    </ul></dd>
+
+<B> Other Academic Activities at CSA, IISc</B><BR>
+<dd><ul> Convener of <a href="http://events.csa.iisc.ernet.in/summerschool2014/">IISc CSA Undergraduate Summer School 2014 </a> </ul></dd>
+<dd><ul> TA for Algorithms and Programming <a href="http://lcm.csa.iisc.ernet.in/esc101/index.html"> - ESC 101 </a> (Aug-Dec 2012) </ul></dd>
+<dd><ul> TA for Linear Algebra Course - <a href="http://clweb.csa.iisc.ernet.in/achintya/la2013/"> E0219 </a> (Aug-Dec 2013) </ul></dd>
+<dd><ul> TA for Machine Learning - <a href="http://drona.csa.iisc.ernet.in/~e0270/Jan-2014/"> E0270 </a> (Jan-Apr 2014, 2015) </ul></dd>
+<dd><ul> Reviewer: Robotics and Autonomous Systems (Elsevier Journal), Machine Learning For Big Data (Sadhana Journal) </ul></dd>
+
+          </div>
+      </div>
+      
+    
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="Experience">
+      
+      <h1 class="title">Experience</h1>
+      <div class="section-container">
+        <div class="text-container">
+          
+    <dd><ul>
+    <li>PhD in CS : GPA - 7.0/8 : Indian Institute of Science (<a href="http://www.csa.iisc.ernet.in/">IISC</a>), Bangalore.</li><br>
+    (Google Anita Borg Scholar APAC - 2014)<BR><BR>
+ 
+    <li>MS in CS with Computer Graphics Emphasis: GPA-3.97/4 : <a href="http://www.cs.utah.edu/">School of Computing, University of Utah</a> </li><br>
+    <li>BE in CS : 89% : Osmania University College of Engineering(Autonomous) - <a href="http://www.uceou.edu/">OUCE</a>, Hyderabad</li><br>
+	(<b>GATE All India Rank 2</b>  , Rank 4 in University)
+    </ul></dd>
+
+<B> Other Academic Activities at CSA, IISc</B><BR>
+<dd><ul> Convener of <a href="http://events.csa.iisc.ernet.in/summerschool2014/">IISc CSA Undergraduate Summer School 2014 </a> </ul></dd>
+<dd><ul> TA for Algorithms and Programming <a href="http://lcm.csa.iisc.ernet.in/esc101/index.html"> - ESC 101 </a> (Aug-Dec 2012) </ul></dd>
+<dd><ul> TA for Linear Algebra Course - <a href="http://clweb.csa.iisc.ernet.in/achintya/la2013/"> E0219 </a> (Aug-Dec 2013) </ul></dd>
+<dd><ul> TA for Machine Learning - <a href="http://drona.csa.iisc.ernet.in/~e0270/Jan-2014/"> E0270 </a> (Jan-Apr 2014, 2015) </ul></dd>
+<dd><ul> Reviewer: Robotics and Autonomous Systems (Elsevier Journal), Machine Learning For Big Data (Sadhana Journal) </ul></dd>
+
+          </div>
+      </div>
+      
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Publications'"
+      />
+    </section>
+    <section id="Publications">
+      
+      <h1 class="title">Publications</h1>
+      <div class="section-container">
+        <div class="text-container">
+          
+    <dd><ul>
+    <li>PhD in CS : GPA - 7.0/8 : Indian Institute of Science (<a href="http://www.csa.iisc.ernet.in/">IISC</a>), Bangalore.</li><br>
+    (Google Anita Borg Scholar APAC - 2014)<BR><BR>
+ 
+    <li>MS in CS with Computer Graphics Emphasis: GPA-3.97/4 : <a href="http://www.cs.utah.edu/">School of Computing, University of Utah</a> </li><br>
+    <li>BE in CS : 89% : Osmania University College of Engineering(Autonomous) - <a href="http://www.uceou.edu/">OUCE</a>, Hyderabad</li><br>
+	(<b>GATE All India Rank 2</b>  , Rank 4 in University)
+    </ul></dd>
+
+<B> Other Academic Activities at CSA, IISc</B><BR>
+<dd><ul> Convener of <a href="http://events.csa.iisc.ernet.in/summerschool2014/">IISc CSA Undergraduate Summer School 2014 </a> </ul></dd>
+<dd><ul> TA for Algorithms and Programming <a href="http://lcm.csa.iisc.ernet.in/esc101/index.html"> - ESC 101 </a> (Aug-Dec 2012) </ul></dd>
+<dd><ul> TA for Linear Algebra Course - <a href="http://clweb.csa.iisc.ernet.in/achintya/la2013/"> E0219 </a> (Aug-Dec 2013) </ul></dd>
+<dd><ul> TA for Machine Learning - <a href="http://drona.csa.iisc.ernet.in/~e0270/Jan-2014/"> E0270 </a> (Jan-Apr 2014, 2015) </ul></dd>
+<dd><ul> Reviewer: Robotics and Autonomous Systems (Elsevier Journal), Machine Learning For Big Data (Sadhana Journal) </ul></dd>
+
+          </div>
+      </div>
+      
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Publications'"
+      />
+    
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="subtitle">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <div >
+            <button
+            class="btn btn-color-2"
+              onclick="window.open('./assets/resume-example.pdf')"
+            >
+              Download CV
+            </button>
+          </div>
+          <div >
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/sujitmondalcs/'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/Sujitcs'"
+            />
+          </div>
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon"
+          />
+          <p><a href="https://mail.google.com/mail/u/1/?ogbl#inbox?compose=DmwnWsdKPSBnBVvHCFXZxkcDhHRKwlKzNFkzrTwVsNJjZsLGQQqllLMBHBkDwPvHwRskqfxVwkQq">sujitmondalcs@gmail.com</a></p>
+        </div>
+        <!-- <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sujitmondalcs/">LinkedIn</a></p>
+        </div> -->
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a style="color: black;" href="#about">About</a></li>
+            <li><a style="color: black;" href="#experience">Experience</a></li>
+            <li><a style="color: black;" onclick="window.location.href='#top'">Home</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Sudip cs. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
